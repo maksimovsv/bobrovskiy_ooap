@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AtdLinkedList
+﻿namespace AtdLinkedList
 {
     public abstract class LinkedList<T>
     {
@@ -21,7 +15,9 @@ namespace AtdLinkedList
         public const int REMOVE_ERR = 2; // текущий узел не удален, так как курсор указывал на пустой список
 
         // КОНСТРУКТОР
+        // постусловие: создан новый пустой список
         protected LinkedList() {}
+        
 
         // КОМАНДЫ
 
@@ -53,6 +49,22 @@ namespace AtdLinkedList
         // постусловие - из списка удалятся все значения
         public abstract void clear();
 
+        // добавить новый узел в хвост списка;
+        // постусловие - в конец списка добавлен новый узел
+        public abstract void add_tail(T value);
+
+        // заменить значение текущего узла на заданное;
+        // постусловие - текущее значение заменено
+        public abstract void replace(T value);
+
+        // установить курсор на следующий узел с искомым значением(по отношению к текущему узлу);
+        // постусловие - курсор установлен на искомое значение
+        public abstract void find(T value);
+
+        // удалить в списке все узлы с заданным значением;
+        // постусловие - все узлы с текущим значение удалены
+        public abstract void remove_all(T value);
+
         // ЗАПРОСЫ
 
         // получить значение текущего узла;
@@ -61,6 +73,15 @@ namespace AtdLinkedList
 
         // посчитать количество узлов в списке.
         public abstract int size();
+
+        // находится ли курсор в начале списка?
+        public abstract bool is_head();
+
+        // находится ли курсор в конце списка?
+        public abstract bool is_tail();
+
+        // установлен ли курсор на какой-либо узел в списке (по сути, непустой ли список).
+        public abstract bool is_value();
 
         // ДОПОЛНИТЕЛЬНЫЕ ЗАПРОСЫ
 

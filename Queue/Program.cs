@@ -16,7 +16,6 @@ namespace Queue
         // постусловие: из начала очереди удален объект
         public abstract void dequeue();
 
-        // предусловие: очередь не пустая
         // постусловие: в конец очереди добавлен объект
         public abstract void enqueue(T value);
 

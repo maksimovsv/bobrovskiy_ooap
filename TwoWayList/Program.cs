@@ -73,6 +73,8 @@
         public abstract int get_get_status(); // успешно; список пуст
     }
 
+    public abstract class LinkedList<T> : ParentList<T> {}
+
     public abstract class TwoWayList<T> : ParentList<T>
     {
         // предусловие: левее курсора есть элемент; 

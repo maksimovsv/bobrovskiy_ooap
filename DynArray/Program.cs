@@ -7,9 +7,6 @@
 
         // КОМАНДЫ
 
-        // постусловие: создан новый массив;
-        public abstract void make_array(int capacity);
-
         // постусловие: в конец массива добавлен новый элемент;
         public abstract void append(T item);
 

@@ -1,10 +1,10 @@
-﻿namespace AtdLinkedList
+﻿namespace TwoWayList
 {
-    public abstract class LinkedList<T>
+    public abstract class ParentList<T>
     {
         // конструктор
         // постусловие: создан новый пустой список
-        protected LinkedList() {}
+        protected ParentList() { }
 
         // команды
         // предусловие: список не пуст; 
@@ -71,6 +71,14 @@
         public abstract int get_find_status(); // следующий найден; 
                                                // следующий не найден; список пуст
         public abstract int get_get_status(); // успешно; список пуст
+    }
 
+    public abstract class TwoWayList<T> : ParentList<T>
+    {
+        // предусловие: левее курсора есть элемент; 
+        // постусловие: курсор сдвинут на один узел влево
+        public abstract void left();
+
+        public abstract int get_left_status(); // успешно; левее нет элемента
     }
 }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoWayList", "TwoWayList\Tw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynArray", "DynArray\DynArray.csproj", "{6E845962-4E9F-4176-AB87-5FD3964468D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{8225B425-764E-4EAF-A1D2-409EEF49FE6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6E845962-4E9F-4176-AB87-5FD3964468D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E845962-4E9F-4176-AB87-5FD3964468D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E845962-4E9F-4176-AB87-5FD3964468D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8225B425-764E-4EAF-A1D2-409EEF49FE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8225B425-764E-4EAF-A1D2-409EEF49FE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8225B425-764E-4EAF-A1D2-409EEF49FE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8225B425-764E-4EAF-A1D2-409EEF49FE6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

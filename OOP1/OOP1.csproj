@@ -47,6 +47,7 @@
     <Compile Include="DynArray.cs" />
     <Compile Include="HashTable.cs" />
     <Compile Include="LinkedList.cs" />
+    <Compile Include="NativeDictionary.cs" />
     <Compile Include="ParentQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

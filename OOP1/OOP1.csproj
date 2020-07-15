@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{499A44BA-F94B-4EF8-A996-DEF1EE8321AF}</ProjectGuid>
+    <ProjectGuid>{DF49EA18-E806-4708-BAD9-BA062A96794C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HashTable</RootNamespace>
-    <AssemblyName>HashTable</AssemblyName>
+    <RootNamespace>OOP1</RootNamespace>
+    <AssemblyName>OOP1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoundedStackATD.cs" />
+    <Compile Include="DynArray.cs" />
+    <Compile Include="HashTable.cs" />
+    <Compile Include="LinkedList.cs" />
+    <Compile Include="ParentQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queue.cs" />
+    <Compile Include="StackATD.cs" />
+    <Compile Include="StackImplementation.cs" />
+    <Compile Include="TwoWayList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

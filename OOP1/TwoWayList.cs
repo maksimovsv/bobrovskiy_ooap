@@ -1,4 +1,4 @@
-﻿namespace TwoWayList
+﻿namespace OOP1
 {
     public abstract class ParentList<T>
     {

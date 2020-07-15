@@ -1,4 +1,4 @@
-﻿namespace DynArray
+﻿namespace OOP1
 {
     public abstract class DynArray<T>
     {

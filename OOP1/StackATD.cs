@@ -1,4 +1,4 @@
-﻿namespace ATD
+﻿namespace OOP1
 {
     public abstract class StackATD<T>
     {

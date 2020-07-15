@@ -1,4 +1,4 @@
-﻿namespace AtdLinkedList
+﻿namespace OOP1
 {
     public abstract class LinkedList<T>
     {

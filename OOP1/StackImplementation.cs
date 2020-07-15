@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ATD
+namespace OOP1
 {
     public class StackImplementation<T> : StackATD<T>
     {

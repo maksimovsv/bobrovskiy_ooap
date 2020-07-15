@@ -1,4 +1,4 @@
-﻿namespace HashTable
+﻿namespace OOP1
 {
     public abstract class HashTable<T>
     {
